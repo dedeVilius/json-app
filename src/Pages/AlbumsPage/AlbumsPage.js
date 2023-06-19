@@ -1,11 +1,11 @@
 import Main from "../../Components/Main/Main"
 
-const HomePage = () => {
+const AlbumsPage = () => {
   return (
     <Main>
-      <h1>Home Page</h1>
+      <h1>Albums Page</h1>
     </Main>
   )
 }
 
-export default HomePage
+export default AlbumsPage
