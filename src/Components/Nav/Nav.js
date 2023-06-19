@@ -1,4 +1,5 @@
 import { NavLink } from 'react-router-dom';
+import '../../Components/Nav/Nav.scss'
 
 const Nav = () => {
   return (
@@ -12,16 +13,16 @@ const Nav = () => {
             <NavLink to='/' className='nav-link'>Home</NavLink>
           </li>
           <li>
-            <NavLink to='/' className='nav-link'>Users</NavLink>
+            <NavLink to='/users' className='nav-link'>Users</NavLink>
           </li>
           <li>
-            <NavLink to='/' className='nav-link'>Posts</NavLink>
+            <NavLink to='/posts' className='nav-link'>Posts</NavLink>
           </li>
           <li>
-            <NavLink to='/' className='nav-link'>Albums</NavLink>
+            <NavLink to='/albums' className='nav-link'>Albums</NavLink>
           </li>
           <li>
-            <NavLink to='/' className='nav-link'>Search</NavLink>
+            <NavLink to='/search' className='nav-link'>Search</NavLink>
           </li>
         </ul>
       </div>

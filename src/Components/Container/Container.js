@@ -1,4 +1,4 @@
-import '../../Components/Container/Container.css'
+import '../../Components/Container/Container.scss'
 
 const Container = ({ children }) => {
   return (
