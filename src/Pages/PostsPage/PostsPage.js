@@ -13,7 +13,7 @@ const PostsPage = () => {
 
   return (
     <Main>
-      <Link to='/json/posts/create'>Create a new post</Link>
+      <Link to='/posts/create-post'>Create a new post</Link>
       <ul>
         {posts.map(post => <li key={post.id}><Link to={'/posts/' + post.id}>{post.id}. {post.title}</Link></li>)}
       </ul>

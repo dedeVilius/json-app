@@ -2,12 +2,6 @@
   "posts": [
     {
       "userId": 1,
-      "id": 1,
-      "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
-      "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
-    },
-    {
-      "userId": 1,
       "id": 2,
       "title": "qui est esse",
       "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
@@ -463,12 +457,6 @@
       "body": "libero accusantium et et facere incidunt sit dolorem\nnon excepturi qui quia sed laudantium\nquisquam molestiae ducimus est\nofficiis esse molestiae iste et quos"
     },
     {
-      "userId": 8,
-      "id": 80,
-      "title": "labore in ex et explicabo corporis aut quas",
-      "body": "ex quod dolorem ea eum iure qui provident amet\nquia qui facere excepturi et repudiandae\nasperiores molestias provident\nminus incidunt vero fugit rerum sint sunt excepturi provident"
-    },
-    {
       "userId": 9,
       "id": 81,
       "title": "tempora rem veritatis voluptas quo dolores vero",
@@ -583,19 +571,13 @@
       "body": "quo deleniti praesentium dicta non quod\naut est molestias\nmolestias et officia quis nihil\nitaque dolorem quia"
     },
     {
-      "userId": 10,
-      "id": 100,
-      "title": "at nam consequatur ea labore ea harum",
-      "body": "cupiditate quo est a modi nesciunt soluta\nipsa voluptas error itaque dicta in\nautem qui minus magnam et distinctio eum\naccusamus ratione error aut"
+      "title": "",
+      "body": "",
+      "userId": 1,
+      "id": 100
     }
   ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
+  "comments": [],
   "users": [
     {
       "id": 1,
