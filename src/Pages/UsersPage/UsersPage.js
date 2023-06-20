@@ -18,7 +18,6 @@ const UsersPage = () => {
     fetchData();
   }, []);
 
-
   return (
     <Main>
       <h1>Users Page</h1>
