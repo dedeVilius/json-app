@@ -7,6 +7,7 @@ import UsersPage from './Pages/UsersPage/UsersPage';
 import PostsPage from './Pages/PostsPage/PostsPage';
 import AlbumsPage from './Pages/AlbumsPage/AlbumsPage';
 import SearchPage from './Pages/SearchPage/SearchPage';
+import SingleUserPage from './Pages/SingleUserPage/SingleUserPage';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Routes>
         <Route path='/' element={<HomePage />} />
         <Route path='/users' element={<UsersPage />} />
+        <Route path='/users/:id' element={<SingleUserPage />} />
         <Route path='/posts' element={<PostsPage />} />
         <Route path='/albums' element={<AlbumsPage />} />
         <Route path='/search' element={<SearchPage />} />
