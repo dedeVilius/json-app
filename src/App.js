@@ -10,6 +10,7 @@ import SearchPage from './Pages/SearchPage/SearchPage';
 import SingleUserPage from './Pages/SingleUserPage/SingleUserPage';
 import SinglePostPage from './Pages/SinglePostPage/SinglePostPage';
 import CreatePostPage from './Pages/CreatePostPage/CreatePostPage';
+import EditPostPage from './Pages/EditPostPage/EditPostPage';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path='/posts' element={<PostsPage />} />
         <Route path='/posts/:id' element={<SinglePostPage />} />
         <Route path='/posts/create-post' element={<CreatePostPage />} />
+        <Route path='/posts/edit-post/:id' element={<EditPostPage />} />
         <Route path='/albums' element={<AlbumsPage />} />
         <Route path='/search' element={<SearchPage />} />
       </Routes>

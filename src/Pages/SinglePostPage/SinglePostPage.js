@@ -2,6 +2,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { API_URL } from "../../config";
+import CommentsSection from "../../Components/CommentsSection/CommentsSection";
 
 const SinglePostPage = () => {
   const { id } = useParams();
@@ -17,6 +18,7 @@ const SinglePostPage = () => {
     axios.delete(`${API_URL}/posts/${id}`)
       .then(data => setPostDeleted(true))
   }
+
   return (
     <div>
       {postDeleted ? (
@@ -29,8 +31,10 @@ const SinglePostPage = () => {
           <>
             <h1>{post.title}</h1>
             <button onClick={deleteHandler}>Delete Post</button>
+            <Link to={`/posts/edit-post/${post.id}`}>Edit Post</Link>
             <p>{post.body}</p>
             <span>Author: {post.user.name}</span>
+            <CommentsSection />
           </>
         )
       )}
